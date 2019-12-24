@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="search_hint">Search for</string>
+    <string name="search_for_films_hint">Search for The Force&#8230;</string>
+    <string name="search_for_character_hint">Search for Jedi&#8230;</string>
+    <string name="no_results">No results</string>
+    <string name="unknown">\?</string>
+    <string name="title_activity_main">Star Wars API Demo</string>
+    <string name="nav_films">Films</string>
+    <string name="nav_people">Characters</string>
+    <string name="title_films">Star Wars Films</string>
+    <string name="title_film_details">Film Details</string>
+    <string name="title_people">Star Wars Characters</string>
+    <string name="title_people_details">Character Details</string>
+    <string name="unknown_gender">Unknown gender</string>
+    <string name="unknown_color">Unknown color</string>
+    <string name="unknown_birth_year">\?</string>
+    <string name="label_birth_year">Birth Year</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_height">Height</string>
+    <string name="label_mass">Mass</string>
+    <string name="label_homeworld">Home World</string>
+    <string name="label_eyes_color">Eyes Color</string>
+    <string name="label_hair_color">Hair Color</string>
+    <string name="label_skin_color">Skin Color</string>
+</resources>

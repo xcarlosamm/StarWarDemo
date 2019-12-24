@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_films">
+
+    <fragment
+        android:id="@+id/navigation_films"
+        android:name="co.swapi.demo.ui.fragment.FilmListFragment"
+        android:label="@string/title_films"
+        tools:layout="@layout/fragment_film_list">
+        <action
+            android:id="@+id/action_goto_navigation_film_details"
+            app:destination="@+id/navigation_film_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="co.swapi.demo.ui.fragment.PeopleFragment"
+        android:label="@string/title_people"
+        tools:layout="@layout/fragment_people">
+        <action
+            android:id="@+id/action_goto_people_details"
+            app:destination="@+id/navigation_people_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_film_details"
+        android:name="co.swapi.demo.ui.fragment.FilmDetailsFragment"
+        android:label="@string/title_film_details"
+        tools:layout="@layout/fragment_film_details">
+        <argument
+            android:name="filmId"
+            android:defaultValue="0L"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/action_characters_list_goto_people_details"
+            app:destination="@id/navigation_people_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_people_details"
+        android:name="co.swapi.demo.ui.fragment.PeopleDetailsFragment"
+        android:label="@string/title_people_details"
+        tools:layout="@layout/fragment_people_details">
+        <argument
+            android:name="characterId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+</navigation>

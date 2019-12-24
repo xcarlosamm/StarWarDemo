@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="loading">Cargando&#8230;</string>
+    <string name="search_hint">Buscar por</string>
+    <string name="search_for_films_hint">Buscar por The Force&#8230;</string>
+    <string name="search_for_character_hint">Buscar por Jedi&#8230;</string>
+    <string name="no_results">Sin Resultados</string>
+    <string name="unknown">\?</string>
+    <string name="title_activity_main">Star Wars API Demo</string>
+    <string name="nav_films">Películas</string>
+    <string name="nav_people">Personajes</string>
+    <string name="title_films">Películas de Star Wars</string>
+    <string name="title_film_details">Información de la Película</string>
+    <string name="title_people">Personajes de Star Wars</string>
+    <string name="title_people_details">Información del Personaje</string>
+    <string name="unknown_gender">Sin género</string>
+    <string name="unknown_color">Color desconocido</string>
+    <string name="unknown_birth_year">\?</string>
+    <string name="label_birth_year">Año de nacimiento</string>
+    <string name="label_gender">Género</string>
+    <string name="label_height">Altura</string>
+    <string name="label_mass">Peso</string>
+    <string name="label_homeworld">Planeta de origen</string>
+    <string name="label_eyes_color">Color de ojos</string>
+    <string name="label_hair_color">Color de cabello</string>
+    <string name="label_skin_color">Color de piel</string>
+</resources>
